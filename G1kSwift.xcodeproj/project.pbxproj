@@ -7,8 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D4E572968AB18B4C18FEE5BE /* Pods_G1kSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99A63EAD708097260A313BDD /* Pods_G1kSwift.framework */; };
+		EC7702DE1E1CF23E009FE34B /* Ky_NetWorkTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7702DD1E1CF23E009FE34B /* Ky_NetWorkTool.swift */; };
+		EC7702E21E1CF404009FE34B /* UINavigationController+FullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = EC7702E11E1CF404009FE34B /* UINavigationController+FullscreenPopGesture.m */; };
+		EC7702E81E1CF61E009FE34B /* Ky_Channels.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7702E71E1CF61E009FE34B /* Ky_Channels.swift */; };
+		ECE8D3681DD966BF0032A0C9 /* Ky_TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE8D3671DD966BF0032A0C9 /* Ky_TabBarController.swift */; };
+		ECE8D36A1DD966DA0032A0C9 /* Ky_NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE8D3691DD966DA0032A0C9 /* Ky_NavigationController.swift */; };
+		ECE8D36C1DD967F60032A0C9 /* Tools.plist in Resources */ = {isa = PBXBuildFile; fileRef = ECE8D36B1DD967F60032A0C9 /* Tools.plist */; };
+		ECE8D36F1DD969760032A0C9 /* Ky_HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE8D36E1DD969760032A0C9 /* Ky_HomeViewController.swift */; };
+		ECE8D3711DD969870032A0C9 /* Ky_GiftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE8D3701DD969870032A0C9 /* Ky_GiftViewController.swift */; };
+		ECE8D3731DD969910032A0C9 /* Ky_CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE8D3721DD969910032A0C9 /* Ky_CategoryViewController.swift */; };
+		ECE8D3751DD969960032A0C9 /* Ky_MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE8D3741DD969960032A0C9 /* Ky_MyViewController.swift */; };
+		ECE8D3791DD996570032A0C9 /* Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE8D3781DD996570032A0C9 /* Tools.swift */; };
+		ECE8D37F1DD9A56C0032A0C9 /* Ky_HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE8D37E1DD9A56C0032A0C9 /* Ky_HomeModel.swift */; };
 		ECFA2EBB1DD1A95C0079BD3F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFA2EBA1DD1A95C0079BD3F /* AppDelegate.swift */; };
-		ECFA2EBD1DD1A95C0079BD3F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFA2EBC1DD1A95C0079BD3F /* ViewController.swift */; };
 		ECFA2EC01DD1A95C0079BD3F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECFA2EBE1DD1A95C0079BD3F /* Main.storyboard */; };
 		ECFA2EC21DD1A95C0079BD3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECFA2EC11DD1A95C0079BD3F /* Assets.xcassets */; };
 		ECFA2EC51DD1A95C0079BD3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECFA2EC31DD1A95C0079BD3F /* LaunchScreen.storyboard */; };
@@ -34,9 +46,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		65ED68997050820973FE082D /* Pods-G1kSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-G1kSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-G1kSwift/Pods-G1kSwift.release.xcconfig"; sourceTree = "<group>"; };
+		694B2249F9B8F163ABEE0B80 /* Pods-G1kSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-G1kSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-G1kSwift/Pods-G1kSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		99A63EAD708097260A313BDD /* Pods_G1kSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_G1kSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC7702DD1E1CF23E009FE34B /* Ky_NetWorkTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ky_NetWorkTool.swift; sourceTree = "<group>"; };
+		EC7702DF1E1CF404009FE34B /* G1kSwift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "G1kSwift-Bridging-Header.h"; sourceTree = "<group>"; };
+		EC7702E01E1CF404009FE34B /* UINavigationController+FullscreenPopGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+FullscreenPopGesture.h"; sourceTree = "<group>"; };
+		EC7702E11E1CF404009FE34B /* UINavigationController+FullscreenPopGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+FullscreenPopGesture.m"; sourceTree = "<group>"; };
+		EC7702E71E1CF61E009FE34B /* Ky_Channels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ky_Channels.swift; sourceTree = "<group>"; };
+		ECE8D3671DD966BF0032A0C9 /* Ky_TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ky_TabBarController.swift; sourceTree = "<group>"; };
+		ECE8D3691DD966DA0032A0C9 /* Ky_NavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ky_NavigationController.swift; sourceTree = "<group>"; };
+		ECE8D36B1DD967F60032A0C9 /* Tools.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Tools.plist; sourceTree = "<group>"; };
+		ECE8D36E1DD969760032A0C9 /* Ky_HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ky_HomeViewController.swift; sourceTree = "<group>"; };
+		ECE8D3701DD969870032A0C9 /* Ky_GiftViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ky_GiftViewController.swift; sourceTree = "<group>"; };
+		ECE8D3721DD969910032A0C9 /* Ky_CategoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ky_CategoryViewController.swift; sourceTree = "<group>"; };
+		ECE8D3741DD969960032A0C9 /* Ky_MyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ky_MyViewController.swift; sourceTree = "<group>"; };
+		ECE8D3781DD996570032A0C9 /* Tools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tools.swift; sourceTree = "<group>"; };
+		ECE8D37E1DD9A56C0032A0C9 /* Ky_HomeModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ky_HomeModel.swift; sourceTree = "<group>"; };
 		ECFA2EB71DD1A95C0079BD3F /* G1kSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = G1kSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECFA2EBA1DD1A95C0079BD3F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		ECFA2EBC1DD1A95C0079BD3F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		ECFA2EBF1DD1A95C0079BD3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ECFA2EC11DD1A95C0079BD3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ECFA2EC41DD1A95C0079BD3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -54,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4E572968AB18B4C18FEE5BE /* Pods_G1kSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +103,80 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3EDCFAFF7FD6D5F68C5745E7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				99A63EAD708097260A313BDD /* Pods_G1kSwift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		461A862D313CD7D54B28E05A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				694B2249F9B8F163ABEE0B80 /* Pods-G1kSwift.debug.xcconfig */,
+				65ED68997050820973FE082D /* Pods-G1kSwift.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EC7702E31E1CF5B8009FE34B /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				EC7702E61E1CF5D2009FE34B /* Controller */,
+				EC7702E51E1CF5CD009FE34B /* View */,
+				EC7702E41E1CF5C6009FE34B /* Model */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		EC7702E41E1CF5C6009FE34B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EC7702E71E1CF61E009FE34B /* Ky_Channels.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		EC7702E51E1CF5CD009FE34B /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		EC7702E61E1CF5D2009FE34B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				ECE8D36E1DD969760032A0C9 /* Ky_HomeViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		ECE8D36D1DD968B10032A0C9 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				EC7702E31E1CF5B8009FE34B /* Home */,
+				ECE8D3701DD969870032A0C9 /* Ky_GiftViewController.swift */,
+				ECE8D3721DD969910032A0C9 /* Ky_CategoryViewController.swift */,
+				ECE8D3741DD969960032A0C9 /* Ky_MyViewController.swift */,
+				ECE8D37E1DD9A56C0032A0C9 /* Ky_HomeModel.swift */,
+			);
+			name = Class;
+			sourceTree = "<group>";
+		};
+		ECE8D3771DD996400032A0C9 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				EC7702E01E1CF404009FE34B /* UINavigationController+FullscreenPopGesture.h */,
+				EC7702E11E1CF404009FE34B /* UINavigationController+FullscreenPopGesture.m */,
+				ECE8D3781DD996570032A0C9 /* Tools.swift */,
+				EC7702DD1E1CF23E009FE34B /* Ky_NetWorkTool.swift */,
+				EC7702DF1E1CF404009FE34B /* G1kSwift-Bridging-Header.h */,
+			);
+			name = Tools;
+			sourceTree = "<group>";
+		};
 		ECFA2EAE1DD1A95C0079BD3F = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +184,8 @@
 				ECFA2ECE1DD1A95C0079BD3F /* G1kSwiftTests */,
 				ECFA2ED91DD1A95C0079BD3F /* G1kSwiftUITests */,
 				ECFA2EB81DD1A95C0079BD3F /* Products */,
+				461A862D313CD7D54B28E05A /* Pods */,
+				3EDCFAFF7FD6D5F68C5745E7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,8 +202,10 @@
 		ECFA2EB91DD1A95C0079BD3F /* G1kSwift */ = {
 			isa = PBXGroup;
 			children = (
+				ECE8D3771DD996400032A0C9 /* Tools */,
+				ECE8D36D1DD968B10032A0C9 /* Class */,
+				ECFA2EE81DD1AB460079BD3F /* Base */,
 				ECFA2EBA1DD1A95C0079BD3F /* AppDelegate.swift */,
-				ECFA2EBC1DD1A95C0079BD3F /* ViewController.swift */,
 				ECFA2EBE1DD1A95C0079BD3F /* Main.storyboard */,
 				ECFA2EC11DD1A95C0079BD3F /* Assets.xcassets */,
 				ECFA2EC31DD1A95C0079BD3F /* LaunchScreen.storyboard */,
@@ -125,6 +232,16 @@
 			path = G1kSwiftUITests;
 			sourceTree = "<group>";
 		};
+		ECFA2EE81DD1AB460079BD3F /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				ECE8D3671DD966BF0032A0C9 /* Ky_TabBarController.swift */,
+				ECE8D3691DD966DA0032A0C9 /* Ky_NavigationController.swift */,
+				ECE8D36B1DD967F60032A0C9 /* Tools.plist */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +249,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ECFA2EDF1DD1A95C0079BD3F /* Build configuration list for PBXNativeTarget "G1kSwift" */;
 			buildPhases = (
+				1A8811654EBF02F93DD33096 /* [CP] Check Pods Manifest.lock */,
 				ECFA2EB31DD1A95C0079BD3F /* Sources */,
 				ECFA2EB41DD1A95C0079BD3F /* Frameworks */,
 				ECFA2EB51DD1A95C0079BD3F /* Resources */,
+				55B084916A224C8255CA00ED /* [CP] Embed Pods Frameworks */,
+				8D97B2449D886F15E8255B65 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -187,6 +307,7 @@
 		ECFA2EAF1DD1A95C0079BD3F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = Ky_;
 				LastSwiftUpdateCheck = 0800;
 				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = SOBF;
@@ -194,6 +315,7 @@
 					ECFA2EB61DD1A95C0079BD3F = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = 4B938222ZG;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
 					ECFA2ECA1DD1A95C0079BD3F = {
@@ -237,6 +359,7 @@
 			files = (
 				ECFA2EC51DD1A95C0079BD3F /* LaunchScreen.storyboard in Resources */,
 				ECFA2EC21DD1A95C0079BD3F /* Assets.xcassets in Resources */,
+				ECE8D36C1DD967F60032A0C9 /* Tools.plist in Resources */,
 				ECFA2EC01DD1A95C0079BD3F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,13 +380,71 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1A8811654EBF02F93DD33096 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		55B084916A224C8255CA00ED /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-G1kSwift/Pods-G1kSwift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D97B2449D886F15E8255B65 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-G1kSwift/Pods-G1kSwift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		ECFA2EB31DD1A95C0079BD3F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ECFA2EBD1DD1A95C0079BD3F /* ViewController.swift in Sources */,
+				EC7702E21E1CF404009FE34B /* UINavigationController+FullscreenPopGesture.m in Sources */,
+				ECE8D3681DD966BF0032A0C9 /* Ky_TabBarController.swift in Sources */,
+				ECE8D37F1DD9A56C0032A0C9 /* Ky_HomeModel.swift in Sources */,
+				ECE8D36F1DD969760032A0C9 /* Ky_HomeViewController.swift in Sources */,
+				ECE8D3731DD969910032A0C9 /* Ky_CategoryViewController.swift in Sources */,
+				ECE8D3751DD969960032A0C9 /* Ky_MyViewController.swift in Sources */,
 				ECFA2EBB1DD1A95C0079BD3F /* AppDelegate.swift in Sources */,
+				EC7702E81E1CF61E009FE34B /* Ky_Channels.swift in Sources */,
+				ECE8D3791DD996570032A0C9 /* Tools.swift in Sources */,
+				ECE8D3711DD969870032A0C9 /* Ky_GiftViewController.swift in Sources */,
+				EC7702DE1E1CF23E009FE34B /* Ky_NetWorkTool.swift in Sources */,
+				ECE8D36A1DD966DA0032A0C9 /* Ky_NavigationController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,26 +594,35 @@
 		};
 		ECFA2EE01DD1A95C0079BD3F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 694B2249F9B8F163ABEE0B80 /* Pods-G1kSwift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 4B938222ZG;
 				INFOPLIST_FILE = G1kSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sobf.G1kSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "G1kSwift/G1kSwift-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		ECFA2EE11DD1A95C0079BD3F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65ED68997050820973FE082D /* Pods-G1kSwift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 4B938222ZG;
 				INFOPLIST_FILE = G1kSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sobf.G1kSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "G1kSwift/G1kSwift-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -514,6 +704,7 @@
 				ECFA2EE11DD1A95C0079BD3F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ECFA2EE21DD1A95C0079BD3F /* Build configuration list for PBXNativeTarget "G1kSwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +713,7 @@
 				ECFA2EE41DD1A95C0079BD3F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ECFA2EE51DD1A95C0079BD3F /* Build configuration list for PBXNativeTarget "G1kSwiftUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +722,7 @@
 				ECFA2EE71DD1A95C0079BD3F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

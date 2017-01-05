@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>viewcontroller</key>
+		<string>Ky_HomeViewController</string>
+		<key>image</key>
+		<string>TabBar_home_23x23_</string>
+		<key>selectImage</key>
+		<string>TabBar_home_23x23_selected</string>
+		<key>title</key>
+		<string>单糖</string>
+	</dict>
+	<dict>
+		<key>viewcontroller</key>
+		<string>Ky_GiftViewController</string>
+		<key>image</key>
+		<string>TabBar_gift_23x23_</string>
+		<key>selectImage</key>
+		<string>TabBar_gift_23x23_selected</string>
+		<key>title</key>
+		<string>单品</string>
+	</dict>
+	<dict>
+		<key>viewcontroller</key>
+		<string>Ky_CategoryViewController</string>
+		<key>image</key>
+		<string>TabBar_category_23x23_</string>
+		<key>selectImage</key>
+		<string>TabBar_category_23x23_selected</string>
+		<key>title</key>
+		<string>分类</string>
+	</dict>
+	<dict>
+		<key>viewcontroller</key>
+		<string>Ky_MyViewController</string>
+		<key>image</key>
+		<string>TabBar_me_boy_23x23_</string>
+		<key>selectImage</key>
+		<string>TabBar_me_boy_23x23_selected</string>
+		<key>title</key>
+		<string>我的</string>
+	</dict>
+</array>
+</plist>
